@@ -57,7 +57,7 @@ function initGame() {
     });
     core.rootScene.addChild(enemy);
 
-    core.addEventListener(Event.ENTER_FRAME,enterFrameByCore);
+    core.rootScene.addEventListener(Event.ENTER_FRAME,enterFrameByCore);
 }
 
 function enterFrameByCore() {

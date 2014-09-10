@@ -73,7 +73,7 @@ function initGame() {
     }
 
 
-    core.addEventListener(Event.ENTER_FRAME,enterFrameByCore);
+    core.rootScene.addEventListener(Event.ENTER_FRAME,enterFrameByCore);
     core.keybind(90, 'z');
 }
 
